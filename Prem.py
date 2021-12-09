@@ -153,21 +153,21 @@ def tokenz():
     except (KeyError, IOError):
         os.system('clear')
         print '' + p + ''
-        print ' [*] \x1b[1;92mtools ini menggunakan login token'
+        print ' \x1b[1;92m[*] \x1b[1;92mtools ini menggunakan login token'
         print ' [*] \x1b[1;92mapakah anda sudah tau cara mendapatkan token?'
         print ' [*] \x1b[1;92mjika belum silahkan ketik "open" untuk melihat tutorial'
         token = raw_input('\n [?] \x1b[1;93mtoken : \x1b[1;96m')
         if token == 'open':
             os.sytem('xdg-open https://youtu.be/IdxphPBMMTU')
-            exit('\n [*] jika sudah paham silahkan ketik ulang python2 run.py')
+            exit('\n [*] jika sudah paham silahkan ketik ulang python2 Prem.py')
         try:
             otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
             a = json.loads(otw.text)
             zedd = open('login.txt', 'w')
             zedd.write(token)
             zedd.close()
-            print '\n\n\x1b[1;97m [*] selamat datang di tools kami'
-            print ' [*] silahkan menunggu sebentar'
+            print '\n\n\x1b[1;97m \x1b[1;92m[*] selamat datang di tools kami'
+            print ' \x1b[1;92m[*] silahkan menunggu sebentar'
             bot()
         except KeyError:
             print '[!] token kadaluwarsa'
