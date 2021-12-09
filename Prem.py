@@ -136,7 +136,7 @@ def logo():
 \x1b[1;92m\_   _____/        /     \\______   \_   _____/>>AUTHOR
 \x1b[1;93m |    __) ______  /  \ /  \|    |  _/|    __)>>BINTANG
 \x1b[1;94m |    |  /_____/ /    Y    \    |   \|     \>>TZY 
-\x1b[1;95m \___ |          \____|__  /______  /\___  />>BROTE
+\x1b[1;95m \___ |  \x1b[1;96mV.2.1   \x1b[1;95m\____|__  /______  /\___  />>BROTE
 \x1b[1;96m     \/                   \/       \/     \/      """%(N))   
 
 
@@ -230,7 +230,7 @@ def menu():
     logo()
     print ''
     print ' \x1b[1;93m[+] Author      : \x1b[1;92mBINTANG-XD'
-    print ' \x1b[1;93m[+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
+    print ' \x1b[1;93m[+] Version     : \x1b[1;92m5.3'
     print ' \x1b[1;93m[+] YouTube     : \x1b[1;92mBINTANG XD'
     print ' \x1b[1;93m[+] ======================================================'
     print ' \x1b[1;93m[+] Bergabung   : \x1b[1;92m%s' % tgl
