@@ -159,12 +159,6 @@ def tokenz():
         token = raw_input('\n [?] \x1b[1;93mtoken : \x1b[1;96m')
         if token == 'open':
 
-        print ' [*] YouTube \x1b[1;92m: Bintang XD'
-        print ' [*] Facebook \x1b[1;92m: Bintang Tzy'
-        print ' [*] Author \x1b[1;92m: BINTANG-XD'
-        print ' [*] Github \x1b[1;92m: github.com/bot-85'
-        print ' [*] WhatsApp \x1b[1;92m: +628193783xxx'
-        exit  ' [*] tekan enter'
         try:
             otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
             a = json.loads(otw.text)
