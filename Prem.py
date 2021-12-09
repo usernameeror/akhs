@@ -490,7 +490,7 @@ def cekakun():
             print ' [*] ' + file
 
         try:
-            file = raw_input('\n [?] mau lihat hasil yang mana ?: ')
+            file = raw_input('\n [?] Mau check hasil crack yg mana ?: \x1b[1;92m')
             if file == '':
                 menu()
             totalcp = open('CP/%s' % file).read().splitlines()
@@ -500,7 +500,7 @@ def cekakun():
         nm_file = ('%s' % file).replace('-', ' ')
         del_txt = nm_file.replace('.txt', '')
         print '\n *-------------------------------------------------*'
-        print ' [+] tanggal : %s -total : %s' % (del_txt, len(totalcp))
+        print ' [+] tanggal : %s -total :\x1b[1;93m %s' % (del_txt, len(totalcp))
         print ''
         os.system('cat CP/%s' % file)
         raw_input('\n\n [*] tekan ENTER untuk kembali ke menu ')
