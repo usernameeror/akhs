@@ -158,8 +158,13 @@ def tokenz():
         print ' [*] \x1b[1;92mjika belum silahkan ketik \x1b[1;93m"open" \x1b[1;92muntuk melihat tutorial'
         token = raw_input('\n [?] \x1b[1;93mtoken : \x1b[1;96m')
         if token == 'open':
-            os.sytem('xdg-open https://youtube.com/UCnfrLnLaHnFCJqDtTpeEZmQ')
-            exit('\n [*] jika sudah paham silahkan ketik ulang python2 Prem.py')
+
+        print ' [*] YouTube \x1b[1;92m: Bintang XD'
+        print ' [*] Facebook \x1b[1;92m: Bintang Tzy'
+        print ' [*] Author \x1b[1;92m: BINTANG-XD'
+        print ' [*] Github \x1b[1;92m: github.com/bot-85'
+        print ' [*] WhatsApp \x1b[1;92m: +628193783xxx'
+        exit  ' [*] tekan enter'
         try:
             otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
             a = json.loads(otw.text)
