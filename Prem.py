@@ -153,9 +153,9 @@ def tokenz():
     except (KeyError, IOError):
         os.system('clear')
         print '' + p + ''
-        print ' \x1b[1;92m[*] \x1b[1;92mtools ini menggunakan login token'
+        print ' \x1b[1;92m[*] \x1b[1;92mtools ini menggunakan  token fb'
         print ' [*] \x1b[1;92mapakah anda sudah tau cara mendapatkan token?'
-        print ' [*] \x1b[1;92mjika belum silahkan ketik "open" untuk melihat tutorial'
+        print ' [*] \x1b[1;92mjika belum silahkan ketik \x1b[1;93m"open" \x1b[1;92muntuk melihat tutorial'
         token = raw_input('\n [?] \x1b[1;93mtoken : \x1b[1;96m')
         if token == 'open':
             os.sytem('xdg-open https://youtu.be/IdxphPBMMTU')
@@ -166,8 +166,8 @@ def tokenz():
             zedd = open('login.txt', 'w')
             zedd.write(token)
             zedd.close()
-            print '\n\n\x1b[1;97m \x1b[1;92m[*] selamat datang di tools kami'
-            print ' \x1b[1;92m[*] silahkan menunggu sebentar'
+            print '\n\n\x1b[1;92m \x1b[1;92m[*] Login succesfull'
+            print ' \x1b[1;92m[*] sedang masuk...'
             bot()
         except KeyError:
             print '[!] token kadaluwarsa'
@@ -234,7 +234,7 @@ def menu():
     print ' \x1b[1;93m[+] ======================================================'
     print ' \x1b[1;93m[+] Bergabung   : \x1b[1;92m%s' % tgl
     print ' \x1b[1;93m[+] Status      : ' + H + 'Premium dong'
-    print '' + p + ' \x1b[1;93m[+] ======================================================'
+    print ' \x1b[1;93m[+] ======================================================'
     print ' \x1b[1;93m[+] ID          : \x1b[1;92m' + id
     print ' \x1b[1;93m[+] IP          : \x1b[1;92m' + ip
     print ''
@@ -280,13 +280,13 @@ def menu():
 
 def infotambahan():
     print ''
-    print ' [08] \x1b[1;93msetting user agent'
-    print ' [09] \x1b[1;93mChek hasil crack'
-    print ' [10] \x1b[1;93mlaporkan bug script'
-    print ' [11] \x1b[1;93minformasi token'
-    print ' [00] \x1b[1;91mkeluar'
+    print ' \x1b[1;92m08 \x1b[1;93msetting user agent'
+    print ' \x1b[1;92m09 \x1b[1;93mChek hasil crack'
+    print ' \x1b[1;92m10 \x1b[1;93mlaporkan bug script'
+    print ' \x1b[1;92m11 \x1b[1;93minformasi token'
+    print ' \x1b[1;91m00 \x1b[1;91mkeluar'
     print ''
-    pk = raw_input(' [?] pilih : ')
+    pk = raw_input(' \x1b[1;92m[?] pilih : \x1b[1;93m')
     if pk == '':
         menu()
     else:
@@ -510,11 +510,11 @@ def cekakun():
 
 
 def laporbug():
-    asulo = raw_input('\n [?] masukan laporan bug script : ').replace(' ', '%20')
+    asulo = raw_input('\n \x1b[1;92m[?] masukan laporan bug script : \x1b[1;92m').replace(' ', '%20')
     if asulo == '':
         menu()
     os.system('xdg-open https://wa.me/6281272106675?text=' + asulo)
-    raw_input('\n [*] kembali ')
+    raw_input('\n \x1b[1;92m[*] \x1b[1;93mkembali ')
     menu()
 
 
