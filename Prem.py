@@ -153,10 +153,10 @@ def tokenz():
     except (KeyError, IOError):
         os.system('clear')
         print '' + p + ''
-        print ' [*] tools ini menggunakan login token'
-        print ' [*] apakah anda sudah tau cara mendapatkan token?'
-        print ' [*] jika belum silahkan ketik "open" untuk melihat tutorial'
-        token = raw_input('\n [?] token : \x1b[1;96m')
+        print ' [*] \x1b[1;92mtools ini menggunakan login token'
+        print ' [*] \x1b[1;92mapakah anda sudah tau cara mendapatkan token?'
+        print ' [*] \x1b[1;92mjika belum silahkan ketik "open" untuk melihat tutorial'
+        token = raw_input('\n [?] \x1b[1;93mtoken : \x1b[1;96m')
         if token == 'open':
             os.sytem('xdg-open https://youtu.be/IdxphPBMMTU')
             exit('\n [*] jika sudah paham silahkan ketik ulang python2 run.py')
@@ -227,29 +227,28 @@ def menu():
         sys.exit()
 
     logo()
-    print '' + p + '  * script masih dalam tahap pengembangan, maklum kalo ada bug'
     print ''
-    print ' [+] Author      : Muhamad Badru Wasih & Roni Wijaya.'
-    print ' [+] Recode      : Hikmat x Putri'
-    print ' [+] Github      : https://github.com/Hikmat-Gans-Awokawok'
+    print ' [+] Author      : \x1b[1;92mBINTANG-XD'
+    print ' [+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
+    print ' [+] YouTube     : \x1b[1;92mBINTANG XD'
     print ' [+] --------------------------------------------'
-    print ' [+] Bergabung   : %s' % tgl
+    print ' [+] Bergabung   : \x1b[1;92m%s' % tgl
     print ' [+] Status      : ' + H + 'Premium:)'
     print '' + p + ' [+] --------------------------------------------'
-    print ' [+] ID          : ' + id
-    print ' [+] IP          : ' + ip
+    print ' [+] ID          : \x1b[1;92m' + id
+    print ' [+] IP          : \x1b[1;92m' + ip
     print ''
-    print ' [ selamat datang anjing\x1b[1;93m' + nama + '\x1b[1;97m ]'
+    print ' [ selamat datang\x1b[1;93m' + nama + '\x1b[1;97m ]'
     print ''
-    print '' + p + ' [01]. crack dari pencarian nama'
-    print ' [02]. crack dari id publik'
-    print ' [03]. crack dari followers'
-    print ' [04]. crack dari like postingan'
-    print ' [05]. crack dari postingan grup'
-    print ' [06]. crack dari target massal'
-    print ' [07]. ambil id dari teman target'
-    print ' [08]. informasi tambahan'
-    print ' [' + m + '00' + p + ']. logout (token)'
+    print '' + p + ' [01] \x1b[1;93mcrack dari pencarian nama'
+    print ' 02 \x1b[1;93mcrack dari id publik'
+    print ' 03 \x1b[1;93mcrack dari followers'
+    print ' 04 \x1b[1;93mcrack dari like postingan'
+    print ' 05 \x1b[1;93mcrack dari postingan grup'
+    print ' 06 \x1b[1;93mcrack dari target massal'
+    print ' 07 \x1b[1;93mambil id dari teman target'
+    print ' 08 \x1b[1;92minformasi tambahan'
+    print ' [' + m + '00' + p + '] \x1b[1;91mlogout'
     print ''
     ask = raw_input(' [?] pilih : ')
     if ask == '':
@@ -281,25 +280,25 @@ def menu():
 
 def infotambahan():
     print ''
-    print ' [1]. setting user agent'
-    print ' [2]. lihat hasil crack'
-    print ' [3]. laporkan bug script'
-    print ' [4]. informasi token'
-    print ' [5]. keluar'
+    print ' [09] \x1b[1;93msetting user agent'
+    print ' [10] \x1b[1;93mChek hasil crack'
+    print ' [11] \x1b[1;93mlaporkan bug script'
+    print ' [12] \x1b[1;93minformasi token'
+    print ' [00] \x1b[1;91mkeluar'
     print ''
     pk = raw_input(' [?] pilih : ')
     if pk == '':
         menu()
     else:
-        if pk == '1' or pk == '01':
+        if pk == '9' or pk == '09':
             return gantiua()
-        if pk == '2' or pk == '02':
+        if pk == '10' or pk == '10':
             cekakun()
-        elif pk == '3' or pk == '03':
+        elif pk == '11' or pk == '11':
             laporbug()
-        elif pk == '4' or pk == '04':
+        elif pk == '12' or pk == '12':
             infologin()
-        elif pk == '5' or pk == '05':
+        elif pk == '0' or pk == '00':
             menu()
 
 
