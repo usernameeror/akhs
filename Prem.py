@@ -456,9 +456,9 @@ def ambilid():
 
 
 def cekakun():
-    print '\n [1]. lihat hasil crack OK '
+    print '\n \x1b[1;93m[1]. lihat hasil crack OK '
     print ' [2]. lihat hasil crack CP '
-    anjg = raw_input('\n [?] pilih : ')
+    anjg = raw_input('\n [?] pilih : \x1b[1;92m')
     if anjg == '':
         menu()
     elif anjg == '1':
