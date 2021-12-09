@@ -228,19 +228,19 @@ def menu():
 
     logo()
     print ''
-    print ' [+] Author      : \x1b[1;92mBINTANG-XD'
-    print ' [+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
-    print ' [+] YouTube     : \x1b[1;92mBINTANG XD'
-    print ' [+] --------------------------------------------'
-    print ' [+] Bergabung   : \x1b[1;92m%s' % tgl
-    print ' [+] Status      : ' + H + 'Premium:)'
-    print '' + p + ' [+] --------------------------------------------'
-    print ' [+] ID          : \x1b[1;92m' + id
-    print ' [+] IP          : \x1b[1;92m' + ip
+    print ' \x1b[1;93m[+] Author      : \x1b[1;92mBINTANG-XD'
+    print ' \x1b[1;93m[+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
+    print ' \x1b[1;93m[+] YouTube     : \x1b[1;92mBINTANG XD'
+    print ' \x1b[1;93m[+] --------------------------------------------'
+    print ' \x1b[1;93m[+] Bergabung   : \x1b[1;92m%s' % tgl
+    print ' \x1b[1;93m[+] Status      : ' + H + 'Premium:)'
+    print '' + p + ' \x1b[1;93m[+] --------------------------------------------'
+    print ' \x1b[1;93m[+] ID          : \x1b[1;92m' + id
+    print ' \x1b[1;93m[+] IP          : \x1b[1;92m' + ip
     print ''
-    print ' [ selamat datang\x1b[1;93m' + nama + '\x1b[1;97m ]'
+    print ' [ selamat datang \x1b[1;93m' + nama + '\x1b[1;97m ]'
     print ''
-    print '' + p + ' [01] \x1b[1;93mcrack dari pencarian nama'
+    print '' + p + ' 01 \x1b[1;93mcrack dari pencarian nama'
     print ' 02 \x1b[1;93mcrack dari id publik'
     print ' 03 \x1b[1;93mcrack dari followers'
     print ' 04 \x1b[1;93mcrack dari like postingan'
@@ -248,9 +248,9 @@ def menu():
     print ' 06 \x1b[1;93mcrack dari target massal'
     print ' 07 \x1b[1;93mambil id dari teman target'
     print ' 08 \x1b[1;92minformasi tambahan'
-    print ' [' + m + '00' + p + '] \x1b[1;91mlogout'
+    print ' [' + m + '00' + p + '] \x1b[1;93mlogout'
     print ''
-    ask = raw_input(' [?] pilih : ')
+    ask = raw_input(' \x1b[1;92m[?] pilih : \x1b[1;93m')
     if ask == '':
         menu()
     elif ask == '1' or ask == '01':
