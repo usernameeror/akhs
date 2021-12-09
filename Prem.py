@@ -534,7 +534,7 @@ def infonya():
 
 
 def pilihpw(file):
-    hg = raw_input('' + p + ' [?] apakah anda ingin menggunakan sandi manual? [Y/t] : ')
+    hg = raw_input('' + p + ' \x1b[1;93m[?] apakah anda ingin menggunakan sandi manual? [Y/t] : ')
     if hg == '':
         pilihpw(file)
     elif hg == 'Y' or hg == 'y':
@@ -582,8 +582,8 @@ def manualnjing(file):
 
 def bapiman():
     asu = ('pwzx').split(',')
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n [+] \x1b[1;92mhasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' [+] \x1b[1;93mhasil CP disimpan ke -> CP/%s.txt' % tanggal
     print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
