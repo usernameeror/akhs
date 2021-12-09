@@ -262,7 +262,7 @@ def menu():
     elif ask == '4' or ask == '04':
         postgrup()
     elif ask == '5' or ask == '05':
-        nama()
+        pencarian()
     elif ask == '6' or ask == '06':
         massal()
     elif ask == '7' or ask == '07':
