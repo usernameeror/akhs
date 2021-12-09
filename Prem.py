@@ -302,17 +302,17 @@ def infotambahan():
             menu()
 
 
-def pencarian():
-    jalan(' [*] maaf fitur ini tidak tersedia sekarang\n [*] silahkan tunggu update terbaru')
-    raw_input('\n [*] kembali ')
-    menu()
-
 
 def postgrup():
     jalan(' [*] maaf fitur ini tidak tersedia sekarang\n [*] silahkan tunggu update terbaru')
     raw_input('\n [*] kembali ')
     menu()
 
+
+def pencarian():
+    jalan(' [*] maaf fitur ini tidak tersedia sekarang\n [*] silahkan tunggu update terbaru')
+    raw_input('\n [*] kembali ')
+    menu()
 
 def publik():
     print " [*] isi 'me' jika ingin crack dari daftar teman"
