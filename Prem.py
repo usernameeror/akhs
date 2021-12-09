@@ -468,7 +468,7 @@ def cekakun():
             print ' [*] ' + file
 
         try:
-            file = raw_input('\n [?] mau lihat hasil yang mana ?: ')
+            file = raw_input('\n [?] Sihlahkan di pilih hasil crack nya ?: \x1b[1;93m')
             if file == '':
                 menu()
             totalok = open('OK/%s' % file).read().splitlines()
@@ -481,7 +481,7 @@ def cekakun():
         print ' [+] tanggal : %s -total : %s' % (del_txt, len(totalok))
         print ''
         os.system('cat OK/%s' % file)
-        raw_input('\n [*] tekan ENTER untuk kembali ke menu')
+        raw_input('\n [*] Tekan enter untuk kembali menu semula')
         menu()
     elif anjg == '2':
         dirs = os.listdir('CP')
