@@ -584,7 +584,7 @@ def bapiman():
     asu = ('pwzx').split(',')
     print '\n [+] \x1b[1;92mhasil OK disimpan ke -> OK/%s.txt' % tanggal
     print ' [+] \x1b[1;93mhasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -647,15 +647,15 @@ def bapiman():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;97m \x1b[1;93m[#] crack selesai...'
     exit()
 
 
 def mbasicman():
     asu = ('pwzx').split(',')
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -715,15 +715,15 @@ def mbasicman():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;93m [#] crack selesai...'
     exit()
 
 
 def mobileman():
     asu = ('pwzx').split(',')
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -788,7 +788,7 @@ def mobileman():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;93m [#] crack selesai...'
     exit()
 
 
@@ -819,9 +819,9 @@ ua = 'ua'
 ree = {'Host': 'free.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 
 def bapi():
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -892,14 +892,14 @@ def bapi():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;92m [#] crack selesai...'
     exit()
 
 
 def mbasic():
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -967,14 +967,14 @@ def mbasic():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;93m [#] crack selesai...'
     exit()
 
 
 def mobile():
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
-    print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
     def main(user):
@@ -1047,7 +1047,7 @@ def mobile():
 
     p = ThreadPool(30)
     p.map(main, id)
-    print '\n\n\x1b[1;97m [#] crack selesai...'
+    print '\n\n\x1b[1;93m [#] crack selesai...'
     exit()
 
 
