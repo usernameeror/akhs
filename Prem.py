@@ -240,35 +240,32 @@ def menu():
     print ''
     print ' [ selamat datang \x1b[1;93m' + nama + '\x1b[1;97m ]'
     print ''
-    print '' + k + ' 01 \x1b[1;93mcrack dari pencarian nama'
-    print ' 02 \x1b[1;93mcrack dari id publik'
-    print ' 03 \x1b[1;93mcrack dari followers'
-    print ' 04 \x1b[1;93mcrack dari like postingan'
-    print ' 05 \x1b[1;93mcrack dari postingan grup'
-    print ' 06 \x1b[1;93mcrack dari target massal'
-    print ' 07 \x1b[1;93mambil id dari teman target'
-    print ' 08 \x1b[1;92minformasi tambahan'
+    print ' 01 \x1b[1;93mcrack dari id publik'
+    print ' 02 \x1b[1;93mcrack dari followers'
+    print ' 03 \x1b[1;93mcrack dari like postingan'
+    print ' 04 \x1b[1;93mcrack dari postingan grup'
+    print ' 05 \x1b[1;93mcrack dari target massal'
+    print ' 06 \x1b[1;93mambil id dari teman target'
+    print ' 07 \x1b[1;92minformasi tambahan'
     print ' ' + m + '00' + p + ' \x1b[1;91mlogout'
     print ''
     ask = raw_input(' \x1b[1;92m[?] pilih : \x1b[1;93m')
     if ask == '':
         menu()
     elif ask == '1' or ask == '01':
-        pencarian()
-    elif ask == '2' or ask == '02':
         publik()
+    elif ask == '2' or ask == '02':
+         followers()
     elif ask == '3' or ask == '03':
-        followers()
+         likes()
     elif ask == '4' or ask == '04':
-        likes()
-    elif ask == '5' or ask == '05':
         postgrup()
-    elif ask == '6' or ask == '06':
+    elif ask == '5' or ask == '05':
         massal()
-    elif ask == '7' or ask == '07':
+    elif ask == '6' or ask == '06':
         ambilid()
-    elif ask == '8' or ask == '08':
-        infotambahan()
+    elif ask == '7' or ask == '07':
+        ingfotambahan()
     elif ask == '0' or ask == '00':
         os.system('rm -f login.txt')
         jalan(' [!] berhasil menghapus token ')
@@ -280,23 +277,23 @@ def menu():
 
 def infotambahan():
     print ''
-    print ' [09] \x1b[1;93msetting user agent'
-    print ' [10] \x1b[1;93mChek hasil crack'
-    print ' [11] \x1b[1;93mlaporkan bug script'
-    print ' [12] \x1b[1;93minformasi token'
+    print ' [08] \x1b[1;93msetting user agent'
+    print ' [09] \x1b[1;93mChek hasil crack'
+    print ' [10] \x1b[1;93mlaporkan bug script'
+    print ' [11] \x1b[1;93minformasi token'
     print ' [00] \x1b[1;91mkeluar'
     print ''
     pk = raw_input(' [?] pilih : ')
     if pk == '':
         menu()
     else:
-        if pk == '9' or pk == '09':
+        if pk == '8' or pk == '08':
             return gantiua()
-        if pk == '10' or pk == '10':
+        if pk == '9' or pk == '09':
             cekakun()
-        elif pk == '11' or pk == '11':
+        elif pk == '10' or pk == '10':
             laporbug()
-        elif pk == '12' or pk == '12':
+        elif pk == '11' or pk == '11':
             infologin()
         elif pk == '0' or pk == '00':
             menu()
