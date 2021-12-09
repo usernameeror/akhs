@@ -231,10 +231,10 @@ def menu():
     print ' \x1b[1;93m[+] Author      : \x1b[1;92mBINTANG-XD'
     print ' \x1b[1;93m[+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
     print ' \x1b[1;93m[+] YouTube     : \x1b[1;92mBINTANG XD'
-    print ' \x1b[1;93m[+] ======================================================='
+    print ' \x1b[1;93m[+] ======================================================'
     print ' \x1b[1;93m[+] Bergabung   : \x1b[1;92m%s' % tgl
     print ' \x1b[1;93m[+] Status      : ' + H + 'Premium dong'
-    print '' + p + ' \x1b[1;93m[+] ======================================================='
+    print '' + p + ' \x1b[1;93m[+] ======================================================'
     print ' \x1b[1;93m[+] ID          : \x1b[1;92m' + id
     print ' \x1b[1;93m[+] IP          : \x1b[1;92m' + ip
     print ''
@@ -513,7 +513,7 @@ def laporbug():
     asulo = raw_input('\n [?] masukan laporan bug script : ').replace(' ', '%20')
     if asulo == '':
         menu()
-    os.system('xdg-open https://wa.me/6285229323951?text=' + asulo)
+    os.system('xdg-open https://wa.me/6281272106675?text=' + asulo)
     raw_input('\n [*] kembali ')
     menu()
 
@@ -527,8 +527,8 @@ def infologin():
 
 
 def infonya():
-    print '\n [+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n [+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' [+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n [!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -582,8 +582,8 @@ def manualnjing(file):
 
 def bapiman():
     asu = ('pwzx').split(',')
-    print '\n [+] \x1b[1;92mhasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' [+] \x1b[1;93mhasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n [+] \x1b[1;92mhasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' [+] \x1b[1;93mhasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -653,8 +653,8 @@ def bapiman():
 
 def mbasicman():
     asu = ('pwzx').split(',')
-    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -721,8 +721,8 @@ def mbasicman():
 
 def mobileman():
     asu = ('pwzx').split(',')
-    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -819,8 +819,8 @@ ua = 'ua'
 ree = {'Host': 'free.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 
 def bapi():
-    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -897,8 +897,8 @@ def bapi():
 
 
 def mbasic():
-    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
@@ -972,8 +972,8 @@ def mbasic():
 
 
 def mobile():
-    print '\n \x1b[1;92m[+] hasil OK disimpan ke -> OK/%s.txt' % tanggal
-    print ' \x1b[1;93m[+] hasil CP disimpan ke -> CP/%s.txt' % tanggal
+    print '\n \x1b[1;92m[+] hasil OK disimpan ke > OK/%s.txt' % tanggal
+    print ' \x1b[1;93m[+] hasil CP disimpan ke > CP/%s.txt' % tanggal
     print '\n \x1b[1;92m[!] anda bisa menjeda proses crack dengan mematikan data seluler'
     print ''
 
