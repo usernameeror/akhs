@@ -231,10 +231,10 @@ def menu():
     print ' \x1b[1;93m[+] Author      : \x1b[1;92mBINTANG-XD'
     print ' \x1b[1;93m[+] Recode      : \x1b[1;92mNDAK ADA YG MAU RECODE:('
     print ' \x1b[1;93m[+] YouTube     : \x1b[1;92mBINTANG XD'
-    print ' \x1b[1;93m[+] --------------------------------------------'
+    print ' \x1b[1;93m[+] =========================================================='
     print ' \x1b[1;93m[+] Bergabung   : \x1b[1;92m%s' % tgl
-    print ' \x1b[1;93m[+] Status      : ' + H + 'Premium:)'
-    print '' + p + ' \x1b[1;93m[+] --------------------------------------------'
+    print ' \x1b[1;93m[+] Status      : ' + H + 'Premium dong'
+    print '' + p + ' \x1b[1;93m[+] =========================================================='
     print ' \x1b[1;93m[+] ID          : \x1b[1;92m' + id
     print ' \x1b[1;93m[+] IP          : \x1b[1;92m' + ip
     print ''
