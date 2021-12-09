@@ -160,6 +160,7 @@ def tokenz():
         if token == 'open':
 
         try:
+
             otw = requests.get('https://graph.facebook.com/me?access_token=' + token)
             a = json.loads(otw.text)
             zedd = open('login.txt', 'w')
