@@ -244,9 +244,10 @@ def menu():
     print ' 02 \x1b[1;93mcrack dari followers'
     print ' 03 \x1b[1;93mcrack dari like postingan'
     print ' 04 \x1b[1;93mcrack dari postingan grup'
-    print ' 05 \x1b[1;93mcrack dari target massal'
-    print ' 06 \x1b[1;93mambil id dari teman target'
-    print ' 07 \x1b[1;92minformasi tambahan'
+    print ' 05 \x1b[1;93mcrack dari pencarian nama'
+    print ' 06 \x1b[1;93mcrack dari target massal'
+    print ' 07 \x1b[1;93mambil id dari teman target'
+    print ' 08 \x1b[1;92minformasi tambahan'
     print ' ' + m + '00' + p + ' \x1b[1;91mlogout'
     print ''
     ask = raw_input(' \x1b[1;92m[?] pilih : \x1b[1;93m')
@@ -261,11 +262,13 @@ def menu():
     elif ask == '4' or ask == '04':
         postgrup()
     elif ask == '5' or ask == '05':
-        massal()
+        nama()
     elif ask == '6' or ask == '06':
-        ambilid()
+        massal()
     elif ask == '7' or ask == '07':
-        ingfotambahan()
+        ambilid()
+   elif ask == '8' or ask == '08':
+        info tambahan()
     elif ask == '0' or ask == '00':
         os.system('rm -f login.txt')
         jalan(' [!] berhasil menghapus token ')
