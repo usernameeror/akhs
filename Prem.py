@@ -267,7 +267,7 @@ def menu():
         massal()
     elif ask == '7' or ask == '07':
         ambilid()
-   elif ask == '8' or ask == '08':
+    elif ask == '8' or ask == '08':
         info tambahan()
     elif ask == '0' or ask == '00':
         os.system('rm -f login.txt')
