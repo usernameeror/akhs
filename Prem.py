@@ -240,7 +240,7 @@ def menu():
     print ''
     print ' [ selamat datang \x1b[1;93m' + nama + '\x1b[1;97m ]'
     print ''
-    print '' + p + ' 01 \x1b[1;93mcrack dari pencarian nama'
+    print '' + k + ' 01 \x1b[1;93mcrack dari pencarian nama'
     print ' 02 \x1b[1;93mcrack dari id publik'
     print ' 03 \x1b[1;93mcrack dari followers'
     print ' 04 \x1b[1;93mcrack dari like postingan'
@@ -248,7 +248,7 @@ def menu():
     print ' 06 \x1b[1;93mcrack dari target massal'
     print ' 07 \x1b[1;93mambil id dari teman target'
     print ' 08 \x1b[1;92minformasi tambahan'
-    print ' [' + m + '00' + p + '] \x1b[1;93mlogout'
+    print ' ' + m + '00' + p + ' \x1b[1;91mlogout'
     print ''
     ask = raw_input(' \x1b[1;92m[?] pilih : \x1b[1;93m')
     if ask == '':
