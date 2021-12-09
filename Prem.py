@@ -794,7 +794,7 @@ def mobileman():
 
 def otomatis(file):
     print ''
-    print '' + p + ' [ pilih metode crack - silahkan coba satu\xc2\xb2 ]'
+    print '' + p + ' \x1b[1;93m[ pilih metode crack - silahkan coba satu\xc2\xb2 ]'
     print ''
     print ' [1] metode api (fast)'
     print ' [2] metode mbasic (slow)'
